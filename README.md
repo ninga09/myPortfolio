@@ -44,5 +44,19 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project? 
+## How can I deploy this project?
+
+### Deploying to Render
+
+1. Push your code to a GitHub repository
+2. Go to [Render](https://render.com) and sign up/login
+3. Click "New +" and select "Static Site"
+4. Connect your GitHub repository
+5. Configure the build settings:
+   - **Build Command**: `npm run build`
+   - **Publish Directory**: `dist`
+   - **Node Version**: 18 (or latest LTS)
+6. Click "Create Static Site"
+7. Your portfolio will be deployed and you'll get a URL
+
  
