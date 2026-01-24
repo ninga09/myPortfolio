@@ -21,14 +21,15 @@ const projects: Project[] = [
   {
     id: 'votesphere',
     title: 'VoteSphere',
-    description: 'A secure and transparent voting application for organizations and communities.',
-    longDescription: 'Built a robust voting platform that ensures transparency and security in elections. Features include real-time vote tracking, secure user authentication, candidate management, and detailed results analytics.',
+    description: 'A secure and transparent voting application for kenya with Hierarchical, and Multi-Tier Voting Architecture with a simplified result anylysis for a communities.',
+    longDescription: 'Built a robust voting platform that ensures transparency and security in elections. Features include real-time vote tracking, secure user authentication, voters management, candidate management, and detailed results analytics.',
     image: 'https://images.unsplash.com/photo-1540910419868-474947cebacb?w=800&h=500&fit=crop',
     techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io'],
     liveUrl: 'https://votesphere-rjob.onrender.com',
     githubUrl: 'https://github.com/ninga09/VoteSphere',
     featured: true,
   },
+  
   {
     id: 'ecommerce',
     title: 'E-Commerce Platform',
