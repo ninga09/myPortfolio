@@ -59,12 +59,12 @@ export function AboutSection() {
 
             <div className="mt-6">
               <a
-                href="/assets/2025reagancv.pdf"
-                download="Reagan_Ninga_CV_2025.pdf"
+                href="/assets/reagan_ninga_academiccert.pdf"
+                download="Reagan_Ninga_academiccert.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors duration-200 shadow-lg hover:shadow-xl"
               >
                 <Download className="w-4 h-4" />
-                Download CV
+                Download academic certificates
               </a>
             </div>
 
