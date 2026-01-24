@@ -3,6 +3,7 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Code2, Coffee, Rocket, Users, Download } from 'lucide-react';
 import { AnimatedSection, StaggerContainer, StaggerItem } from './AnimatedSection';
+import academicCert from '../assets/reagan_ninga_academiccert.pdf';
 
 const stats = [
   { icon: Code2, value: '50+', label: 'Projects Completed' },
@@ -59,7 +60,7 @@ export function AboutSection() {
 
             <div className="mt-6">
               <a
-                href="/assets/reagan_ninga_academiccert.pdf"
+                href={academicCert}
                 download="Reagan_Ninga_academiccert.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors duration-200 shadow-lg hover:shadow-xl"
               >
