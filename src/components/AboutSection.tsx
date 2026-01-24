@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Code2, Coffee, Rocket, Users } from 'lucide-react';
+import { Code2, Coffee, Rocket, Users, Download } from 'lucide-react';
 import { AnimatedSection, StaggerContainer, StaggerItem } from './AnimatedSection';
 
 const stats = [
@@ -55,6 +55,17 @@ export function AboutSection() {
                 services with Node.js and PostgreSQL. I'm always eager to learn new
                 technologies and tackle challenging problems.
               </p>
+            </div>
+
+            <div className="mt-6">
+              <a
+                href="/assets/2025reagancv.pdf"
+                download="Reagan_Ninga_CV_2025.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors duration-200 shadow-lg hover:shadow-xl"
+              >
+                <Download className="w-4 h-4" />
+                Download CV
+              </a>
             </div>
 
             <StaggerContainer className="mt-8 flex flex-wrap gap-3" staggerDelay={0.1}>
