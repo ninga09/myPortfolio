@@ -40,12 +40,12 @@ export function AboutSection() {
 
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm a full-stack developer based in San Francisco, California. I specialize in
+                I'm a full-stack developer based in Nairobi,Kenya. I specialize in
                 building exceptional digital experiences that are fast, accessible, and
                 visually appealing.
               </p>
               <p>
-                My journey in web development started 5 years ago when I built my first
+                My journey in web development started 6 years ago when I built my first
                 website. Since then, I've had the privilege of working at a start-up,
                 a large corporation, and as a freelancer.
               </p>
