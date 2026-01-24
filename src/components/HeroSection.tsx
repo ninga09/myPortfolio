@@ -3,6 +3,7 @@ import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from './ui/button';
 import reaganningaImage from '@/assets/reaganninga.jpg';
 import cvFile from '@/assets/2025reagancv.pdf';
+import academicCert from '@/assets/reagan_ninga_academiccert.pdf';
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com', label: 'GitHub' },
@@ -22,6 +23,15 @@ export function HeroSection() {
     const link = document.createElement('a');
     link.href = cvFile;
     link.download = 'Reagan_Ninga_CV_2025.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const downloadCert = () => {
+    const link = document.createElement('a');
+    link.href = academicCert;
+    link.download = 'Reagan_Ninga_academiccert.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -110,6 +120,14 @@ export function HeroSection() {
               >
                 <Download size={20} />
                 Download CV
+              </Button>
+              <Button
+                variant="heroOutline"
+                size="xl"
+                onClick={downloadCert}
+              >
+                <Download size={20} />
+                Certificates
               </Button>
             </motion.div>
 
