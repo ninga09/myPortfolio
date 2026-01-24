@@ -19,6 +19,17 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: 'votesphere',
+    title: 'VoteSphere',
+    description: 'A secure and transparent voting application for organizations and communities.',
+    longDescription: 'Built a robust voting platform that ensures transparency and security in elections. Features include real-time vote tracking, secure user authentication, candidate management, and detailed results analytics.',
+    image: 'https://images.unsplash.com/photo-1540910419868-474947cebacb?w=800&h=500&fit=crop',
+    techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io'],
+    liveUrl: 'https://votesphere-rjob.onrender.com',
+    githubUrl: 'https://github.com/ninga09/VoteSphere',
+    featured: true,
+  },
+  {
     id: 'ecommerce',
     title: 'E-Commerce Platform',
     description: 'A full-stack e-commerce solution with real-time inventory and secure payments.',
@@ -80,8 +91,8 @@ const projects: Project[] = [
     longDescription: 'Created a customizable portfolio template with dark mode, animations, and SEO optimization. Features include contact form integration, project showcase, and blog section with MDX support.',
     image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=500&fit=crop',
     techStack: ['React', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-    liveUrl: 'https://demo.example.com',
-    githubUrl: 'https://github.com',
+    liveUrl: 'https://ningareagan.onrender.com',
+    githubUrl: 'https://github.com/ninga09/myportfolio',
     featured: false,
   },
 ];
@@ -247,7 +258,7 @@ export function ProjectsSection() {
               </p>
             </div>
             <a
-              href="https://github.com"
+              href="https://github.com/ninga09"
               target="_blank"
               rel="noopener noreferrer"
             >
