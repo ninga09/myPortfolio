@@ -13,8 +13,8 @@ interface FormData {
 }
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'hello@alexchen.dev' },
-  { icon: MapPin, label: 'Location', value: 'San Francisco, CA' },
+  { icon: Mail, label: 'Email', value: 'abc@gmail.dev' },
+  { icon: MapPin, label: 'Location', value: 'Nairobi,Kenya' },
   { icon: Clock, label: 'Response Time', value: 'Within 24 hours' },
 ];
 
@@ -55,7 +55,7 @@ export function ContactSection() {
       setSubmitStatus('error');
       toast({
         title: 'Something went wrong',
-        description: 'Please try again or email me directly.',
+        description: 'Please try again or email me directly @ ningareagan001@gmail.com.',
         variant: 'destructive',
       });
     } finally {
