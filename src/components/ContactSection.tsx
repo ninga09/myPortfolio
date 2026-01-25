@@ -161,7 +161,7 @@ export function ContactSection() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
-                    placeholder="John Doe"
+                    placeholder="calvince john"
                   />
                 </motion.div>
                 <motion.div
@@ -181,7 +181,7 @@ export function ContactSection() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
-                    placeholder="john@example.com"
+                    placeholder="abc@example.com"
                   />
                 </motion.div>
               </div>
@@ -203,7 +203,7 @@ export function ContactSection() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
-                  placeholder="Project Inquiry"
+                  placeholder="Project Inquiry....."
                 />
               </motion.div>
 
