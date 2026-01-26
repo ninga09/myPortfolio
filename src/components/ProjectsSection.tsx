@@ -29,6 +29,7 @@ const projects: Project[] = [
     githubUrl: 'https://github.com',
     featured: true,
   },
+  
   {
     id: 'taskmanager',
     title: 'Task Management App',
