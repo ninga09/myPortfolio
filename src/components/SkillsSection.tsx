@@ -11,11 +11,11 @@ interface Skill {
 
 const skills: Skill[] = [
   // Frontend
-  { name: 'React / Next.js', level: 95, category: 'frontend' },
-  { name: 'TypeScript', level: 90, category: 'frontend' },
-  { name: 'Tailwind CSS', level: 95, category: 'frontend' },
-  { name: 'HTML / CSS', level: 98, category: 'frontend' },
-  { name: 'JavaScript (ES6+)', level: 92, category: 'frontend' },
+  { name: 'React / Next.js', level: 90, category: 'frontend' },
+  { name: 'TypeScript', level: 85, category: 'frontend' },
+  { name: 'Tailwind CSS', level: 75, category: 'frontend' },
+  { name: 'HTML / CSS', level: 95, category: 'frontend' },
+  { name: 'JavaScript (ES6+)', level: 80, category: 'frontend' },
   { name: 'Vue.js', level: 75, category: 'frontend' },
   // Backend
   { name: 'Node.js / Express', level: 90, category: 'backend' },
@@ -23,7 +23,7 @@ const skills: Skill[] = [
   { name: 'MongoDB', level: 80, category: 'backend' },
   { name: 'REST APIs', level: 92, category: 'backend' },
   { name: 'GraphQL', level: 78, category: 'backend' },
-  { name: 'Python / Django', level: 70, category: 'backend' },
+  { name: 'Python / Django', level: 90, category: 'backend' },
   // DevOps
   { name: 'Git / GitHub', level: 95, category: 'devops' },
   { name: 'Docker', level: 80, category: 'devops' },
@@ -152,7 +152,7 @@ export function SkillsSection() {
               'Redis',
               'Socket.io',
               'Three.js',
-              'Prisma',
+              'Go',
               'Supabase',
               'Firebase',
               'Stripe API',

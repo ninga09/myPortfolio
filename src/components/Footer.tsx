@@ -5,7 +5,7 @@ const socialLinks = [
   { icon: Github, href: 'https://github.com', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
   { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Mail, href: 'mailto:hello@alexchen.dev', label: 'Email' },
+  { icon: Mail, href: 'mailto:ningareagan001@gmail.com', label: 'Email' },
 ];
 
 const navLinks = [
@@ -76,7 +76,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
-            © {currentYear} Alex Chen. Made with{' '}
+            © {currentYear} Reagan ninga. Made with{' '}
             <Heart size={14} className="text-red-500 fill-red-500" /> using React
             & Tailwind CSS.
           </p>

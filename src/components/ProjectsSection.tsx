@@ -19,17 +19,6 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 'votesphere',
-    title: 'VoteSphere',
-    description: 'A secure and transparent voting application for organizations and communities.',
-    longDescription: 'Built a robust voting platform that ensures transparency and security in elections. Features include real-time vote tracking, secure user authentication, candidate management, and detailed results analytics.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=500&fit=crop',
-    techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io'],
-    liveUrl: 'https://votesphere-rjob.onrender.com',
-    githubUrl: 'https://github.com',
-    featured: true,
-  },
-  {
     id: 'ecommerce',
     title: 'E-Commerce Platform',
     description: 'A full-stack e-commerce solution with real-time inventory and secure payments.',
@@ -258,7 +247,7 @@ export function ProjectsSection() {
               </p>
             </div>
             <a
-              href="https://github.com"
+              href="https://github.com/ninga09"
               target="_blank"
               rel="noopener noreferrer"
             >

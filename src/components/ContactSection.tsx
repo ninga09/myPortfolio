@@ -13,8 +13,8 @@ interface FormData {
 }
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'hello@alexchen.dev' },
-  { icon: MapPin, label: 'Location', value: 'San Francisco, CA' },
+  { icon: Mail, label: 'Email', value: 'abc@gmail.dev' },
+  { icon: MapPin, label: 'Location', value: 'Nairobi,Kenya' },
   { icon: Clock, label: 'Response Time', value: 'Within 24 hours' },
 ];
 
@@ -55,7 +55,7 @@ export function ContactSection() {
       setSubmitStatus('error');
       toast({
         title: 'Something went wrong',
-        description: 'Please try again or email me directly.',
+        description: 'Please try again or email me directly @ ningareagan001@gmail.com.',
         variant: 'destructive',
       });
     } finally {
@@ -161,7 +161,7 @@ export function ContactSection() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
-                    placeholder="John Doe"
+                    placeholder="calvince john"
                   />
                 </motion.div>
                 <motion.div
@@ -181,7 +181,7 @@ export function ContactSection() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
-                    placeholder="john@example.com"
+                    placeholder="abc@example.com"
                   />
                 </motion.div>
               </div>
@@ -203,7 +203,7 @@ export function ContactSection() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
-                  placeholder="Project Inquiry"
+                  placeholder="Project Inquiry....."
                 />
               </motion.div>
 
