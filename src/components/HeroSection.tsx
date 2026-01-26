@@ -170,7 +170,7 @@ export function HeroSection() {
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-background">
                 <img
                   src={reaganningaImage}
-                  alt="Reagan Ninga - Full-Stack Developer"
+                  alt="Reagan Ninga - Full-Stack Developer, ninga, reaganninga, ningareagan, reagan ninga portfolio"
                   className="w-full h-full object-cover"
                 />
               </div>
