@@ -23,7 +23,7 @@ const projects: Project[] = [
     title: 'VoteSphere',
     description: 'A secure and transparent voting application for organizations and communities.',
     longDescription: 'Built a robust voting platform that ensures transparency and security in elections. Features include real-time vote tracking, secure user authentication, candidate management, and detailed results analytics.',
-    image: 'https://images.unsplash.com/photo-1540910419868-474947cebacb?w=800&h=500&fit=crop',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=500&fit=crop',
     techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io'],
     liveUrl: 'https://votesphere-rjob.onrender.com',
     githubUrl: 'https://github.com',
