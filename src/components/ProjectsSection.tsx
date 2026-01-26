@@ -19,12 +19,23 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: 'votesphere',
+    title: 'votesphere',
+    description: 'A full-stack website solving with real-time Secure, Hierarchical, and Multi-Tier Voting Architecture.',
+    longDescription: 'Built a comprehensive voting platform featuring user authentication, result analysis, balloting functionality, and admin integration. Implemented real-time voting updates using WebSockets and optimized performance with Redis caching.',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop',
+    techStack: ['python', 'django', 'PostgreSQL',  'Redis'],
+    liveUrl: 'https://https://votesphere-rjob.onrender.com',
+    githubUrl: 'https://github.com/ninga09/votesphere',
+    featured: true,
+  },
+  {
     id: 'ecommerce',
     title: 'E-Commerce Platform',
     description: 'A full-stack e-commerce solution with real-time inventory and secure payments.',
     longDescription: 'Built a comprehensive e-commerce platform featuring user authentication, product management, shopping cart functionality, and Stripe payment integration. Implemented real-time inventory updates using WebSockets and optimized performance with Redis caching.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop',
-    techStack: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Redis'],
+    techStack: ['React', 'Node.js', 'PostgreSQL', 'Mpesa payment', 'Redis'],
     liveUrl: 'https://demo.example.com',
     githubUrl: 'https://github.com',
     featured: true,
