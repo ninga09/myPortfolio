@@ -1,9 +1,6 @@
  
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
-
-
 Follow these steps:
 
 ```sh
@@ -49,14 +46,12 @@ This project is built with:
 ### Deploying to Render
 
 1. Push your code to a GitHub repository
-2. Go to [Render](https://render.com) and sign up/login
-3. Click "New +" and select "Static Site"
-4. Connect your GitHub repository
-5. Configure the build settings:
+2. Connect your GitHub repository
+3. Configure the build settings:
    - **Build Command**: `npm run build`
    - **Publish Directory**: `dist`
    - **Node Version**: 18 (or latest LTS)
-6. Click "Create Static Site"
-7. Your portfolio will be deployed and you'll get a URL
+4. Click "Create Static Site"
+5. Your portfolio will be deployed and you'll get a URL
 
  
